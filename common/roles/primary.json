@@ -1,0 +1,73 @@
+{
+  "errorMessage": null,
+  "data": {
+    "id": "govscot~primary",
+    "accessibilityAuditorDomains": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "accessibilityAuditorScope": "none",
+    "canCreateRolesWithSuffix": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canCreateUsersWithSuffix": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canEditKeysInConfigEnvironments": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canEditConfigKeys": {
+      "unrestricted": false,
+      "specificallyAllowedValues": {}
+    },
+    "canReadConfigKeys": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "collections": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "inRoles": [
+      "govscot~resources"
+    ],
+    "permissions": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "permittedCollectionCreationTypes": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canEditRoles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canGrantRoles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "selfDescription": null,
+    "email": null,
+    "fullName": null,
+    "info": null,
+    "organisation": null,
+    "canEditUsers": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "licenses": {
+      "unrestricted": false,
+      "specificallyAllowedValues": [
+        ".funnelback.com"
+      ]
+    },
+    "profiles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    }
+  }
+}

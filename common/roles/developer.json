@@ -1,0 +1,123 @@
+{
+  "errorMessage": null,
+  "data": {
+    "id": "govscot~developer",
+    "accessibilityAuditorDomains": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "accessibilityAuditorScope": "none",
+    "canCreateRolesWithSuffix": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canCreateUsersWithSuffix": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canEditKeysInConfigEnvironments": {
+      "unrestricted": false,
+      "specificallyAllowedValues": [
+        "dev"
+      ]
+    },
+    "canEditConfigKeys": {
+      "unrestricted": false,
+      "specificallyAllowedValues": {}
+    },
+    "canReadConfigKeys": {
+      "unrestricted": true,
+      "specificallyAllowedValues": []
+    },
+    "collections": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "inRoles": [
+      "govscot~primary"
+    ],
+    "permissions": {
+      "unrestricted": false,
+      "specificallyAllowedValues": [
+        "cp.diagnostics",
+        "cp.status",
+        "plugin.build.report.db",
+        "plugin.show.fm.rules",
+        "sec.accessibility-auditor",
+        "sec.administer.read",
+        "sec.api.link",
+        "sec.best-bet",
+        "sec.blending",
+        "sec.collection-start-urls",
+        "sec.content-auditor",
+        "sec.continuous.rest",
+        "sec.curator",
+        "sec.custom-gather",
+        "sec.data.reporter",
+        "sec.delete.collection.disable-hook",
+        "sec.faceted-navigation",
+        "sec.file.manager",
+        "sec.file.manager.edit",
+        "sec.halt.manual",
+        "sec.hook-script",
+        "sec.instant.update",
+        "sec.knowledge-graph-labels",
+        "sec.knowledge-graph-relationships",
+        "sec.knowledge-graph-templates",
+        "sec.knowledge-graph-update",
+        "sec.license.view-usage",
+        "sec.meta-name",
+        "sec.metadata-mapping",
+        "sec.predictive-segmentation",
+        "sec.qie",
+        "sec.queue.delete-other-users-tasks",
+        "sec.queue.priority",
+        "sec.reporter",
+        "sec.reporter.email",
+        "sec.reporting-exclusion",
+        "sec.sched.cron",
+        "sec.sched.manual",
+        "sec.seo-auditor",
+        "sec.service.mediator",
+        "sec.site-profile",
+        "sec.spelling",
+        "sec.synonym",
+        "sec.tuning",
+        "sec.tuning.run",
+        "sec.url-kill-list",
+        "sec.view.logs",
+        "sec.workflow-config",
+        "sec.xml-index"
+      ]
+    },
+    "permittedCollectionCreationTypes": {
+      "unrestricted": true,
+      "specificallyAllowedValues": []
+    },
+    "canEditRoles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canGrantRoles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "selfDescription": "Developers",
+    "email": null,
+    "fullName": null,
+    "info": null,
+    "organisation": null,
+    "canEditUsers": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "licenses": {
+      "unrestricted": true,
+      "specificallyAllowedValues": []
+    },
+    "profiles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "errorMessage": null,
+  "data": {
+    "id": "govscot~support",
+    "accessibilityAuditorDomains": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "accessibilityAuditorScope": "none",
+    "canCreateRolesWithSuffix": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canCreateUsersWithSuffix": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canEditKeysInConfigEnvironments": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canEditConfigKeys": {
+      "unrestricted": false,
+      "specificallyAllowedValues": {}
+    },
+    "canReadConfigKeys": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "collections": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "inRoles": [
+      "govscot~primary"
+    ],
+    "permissions": {
+      "unrestricted": false,
+      "specificallyAllowedValues": [
+        "cp.change.passwd",
+        "sec.accounts.create-users",
+        "sec.accounts.delete-users",
+        "sec.instant.update",
+        "sec.license.view-usage",
+        "sec.sched.manual",
+        "sec.view.logs"
+      ]
+    },
+    "permittedCollectionCreationTypes": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canEditRoles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canGrantRoles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "selfDescription": "Support desk",
+    "email": null,
+    "fullName": null,
+    "info": null,
+    "organisation": null,
+    "canEditUsers": {
+      "unrestricted": true,
+      "specificallyAllowedValues": []
+    },
+    "licenses": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "profiles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    }
+  }
+}

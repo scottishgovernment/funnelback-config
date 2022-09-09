@@ -1,0 +1,1098 @@
+{
+  "errorMessage": null,
+  "data": {
+    "id": "govscot~tester",
+    "accessibilityAuditorDomains": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "accessibilityAuditorScope": "none",
+    "canCreateRolesWithSuffix": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canCreateUsersWithSuffix": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canEditKeysInConfigEnvironments": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canEditConfigKeys": {
+      "unrestricted": false,
+      "specificallyAllowedValues": {
+        "accessibility-auditor.check": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "accessibility-auditor.min-time-between-recording-history-in-seconds": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "analytics.email.addresses": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "analytics.email.frequency": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "analytics.email.from": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "analytics.email.outliers_confidence_threshold": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "analytics.email.outliers_enabled": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "analytics.email.send_hour_spikes": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "auto-completion": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "auto-completion.alpha": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "auto-completion.format": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "auto-completion.length": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "auto-completion.program": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "auto-completion.search.enabled": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "auto-completion.search.program": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "auto-completion.show": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "auto-completion.sort": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "auto-completion.source": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "auto-completion.source.csv.*.url": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "auto-completion.source.extra": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "auto-completion.standard.enabled": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "changeover_percent": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "click_tracking": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "contextual-navigation.cannot_end_with": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "contextual-navigation.case_sensitive": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "contextual-navigation.categorise_clusters": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "contextual-navigation.enabled": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "contextual-navigation.kill_list": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "contextual-navigation.max_phrase_length": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "contextual-navigation.max_phrases": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "contextual-navigation.max_results_to_examine": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "contextual-navigation.site.granularity": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "contextual-navigation.site.max_clusters": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "contextual-navigation.summary_fields": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "contextual-navigation.timeout_seconds": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "contextual-navigation.topic.max_clusters": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "contextual-navigation.type.max_clusters": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.accept_files": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.allow_concurrent_in_crawl_form_interaction": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.allowed_redirect_pattern": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.cache.DNSCache_max_size": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.cache.LRUCache_max_size": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.cache.URLCache_max_size": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.check_alias_exists": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.classes.Frontier": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.classes.Policy": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.classes.RevisitPolicy": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.classes.URLStore": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.classes.statistics": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.eliminate_duplicates": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.extract_links_from_javascript": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.follow_links_in_comments": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.form_interaction.in_crawl.*.cleartext.*": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.form_interaction.in_crawl.*.encrypted.*": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.form_interaction.in_crawl.*.url_pattern": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.form_interaction.pre_crawl.*.cleartext.*": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.form_interaction.pre_crawl.*.encrypted.*": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.form_interaction.pre_crawl.*.form_number": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.form_interaction.pre_crawl.*.url": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.frontier_hosts": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.frontier_num_top_level_dirs": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.frontier_port": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.frontier_use_ip_mapping": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.header_logging": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.incremental_logging": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.inline_filtering_enabled": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.link_extraction_group": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.link_extraction_regular_expression": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.lowercase_iis_urls": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.max_dir_depth": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.max_download_size": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.max_files_per_area": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.max_files_per_server": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.max_files_stored": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.max_individual_frontier_size": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.max_link_distance": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.max_parse_size": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.max_timeout_retries": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.max_url_length": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.max_url_repeating_elements": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.monitor_authentication_cookie_renewal_interval": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.monitor_checkpoint_interval": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.monitor_delay_type": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.monitor_halt": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.monitor_preferred_servers_list": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.monitor_time_interval": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.monitor_url_reject_list": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.non_html": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.num_crawlers": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.overall_crawl_timeout": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.overall_crawl_units": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.parser.mimeTypes": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.predirects_enabled": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.protocols": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.reject_files": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.remove_parameters": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.request_delay": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.request_header": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.request_header_url_prefix": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.request_timeout": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.revisit.edit_distance_threshold": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.revisit.num_times_revisit_skipped_threshold": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.revisit.num_times_unchanged_threshold": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.robotAgent": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.send-http-basic-credentials-without-challenge": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.start_urls_file": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.store_all_types": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.store_empty_content_urls": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.store_headers": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.use_sitemap_xml": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler.user_agent": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "crawler_binaries": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "filter.classes": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "filter.document_fixer.timeout_ms": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "filter.ignore.mimeTypes": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "filter.jsoup.classes": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "filter.jsoup.undesirable_text-source.*": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "filter.text-cleanup.ranges-to-replace": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "include_patterns": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "index": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "index.target": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "indexer": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "indexer_options": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "indexing.additional-metamap-source.*": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "indexing.collapse_fields": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "indexing.use_manifest": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "meta.components": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "meta.components.*.weight": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "noindex_expression": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "plugin.*.enabled": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "plugin.*.version": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "plugin.clean-title.*": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "plugin.pagination.*": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.auto-start": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.commit-type": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.commit.index.parallel.max-index-thread-count": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.commit.index.parallel.min-documents-for-parallel-indexing": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.commit.index.parallel.min-documents-per-thread": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.initial-mode": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.max-generations": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.merge.index.parallel.max-index-thread-count": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.merge.index.parallel.min-documents-for-parallel-indexing": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.merge.index.parallel.min-documents-per-thread": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.replication.compression-algorithm": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.replication.ignore.data": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.replication.ignore.delete-lists": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.replication.ignore.index-redirects": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.replication.master.hostname": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.replication.master.push-api.port": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.run": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.scheduler.auto-click-logs-processing-timeout-seconds": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.scheduler.auto-commit-timeout-seconds": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.scheduler.changes-before-auto-commit": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.scheduler.delay-between-content-auditor-runs": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.scheduler.delay-between-meta-dependencies-runs": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.scheduler.generation.re-index.killed-percent": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.scheduler.generation.re-index.min-doc-count": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.scheduler.killed-percentage-for-reindex": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "push.store.always-flush": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "query_processor": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "query_processor_options": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "quicklinks": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "quicklinks.blacklist_terms": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "quicklinks.debug": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "quicklinks.depth": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "quicklinks.domain_searchbox": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "quicklinks.max_len": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "quicklinks.max_words": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "quicklinks.min_len": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "quicklinks.min_links": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "quicklinks.rank": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "quicklinks.total_links": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "recommender": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "schedule.*.auto.desired-time-between-updates": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "schedule.*.auto.no-update-window.duration": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "schedule.*.auto.no-update-window.start-time": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "schedule.*.fixed.permitted-days-of-week": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "schedule.*.fixed.start-times": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "schedule.incremental_crawl_ratio": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "schedule.timezone": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "scheduler.paused": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "spelling.suggestion_lexicon_weight": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "spelling.suggestion_sources": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "spelling.suggestion_threshold": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "spelling_enabled": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "start_url": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.collect_containers": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.database": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.default_live_links": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.domain": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.extracted_file_types": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.filter_timeout": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.free_space_check_exclude": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.free_space_threshold": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.gather_direction": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.gather_end_date": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.gather_mode": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.gather_start_date": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.license_number": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.max_filter_errors": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.max_size": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.max_store_errors": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.passwd": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.properties_blacklist": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.push.collection": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.request_delay": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.stats_dump_interval": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.store_class": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.threads": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.timespan": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.timespan.unit": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.user": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.userfields_blacklist": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.verbose": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.version": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.web_server_work_path": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.workgroup_port": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "trim.workgroup_server": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.integration_url": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.accessibility-auditor.daat_limit": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.click_link": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.content-auditor.collapsing-signature": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.content-auditor.count_urls": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.content-auditor.daat_limit": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.content-auditor.date-modified.ok-age-years": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.content-auditor.display-metadata.*": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.content-auditor.duplicate_num_ranks": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.content-auditor.facet-metadata.*": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.content-auditor.max-metadata-facet-categories": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.content-auditor.num_ranks": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.content-auditor.overview-category-count": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.content-auditor.preferred-facets": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.content-auditor.reading-grade.lower-ok-limit": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.content-auditor.reading-grade.upper-ok-limit": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.curator.*": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.curator.query-parameter-pattern": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.external_num_ranks_limit": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.metadata-alias.*": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.remove-internal-extra-searches": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.search_link": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui.modern.session": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui_cache_disabled": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
+        "ui_cache_link": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        }
+      }
+    },
+    "canReadConfigKeys": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "collections": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "inRoles": [
+      "govscot~primary"
+    ],
+    "permissions": {
+      "unrestricted": false,
+      "specificallyAllowedValues": [
+        "cp.diagnostics",
+        "cp.status",
+        "plugin.build.report.db",
+        "plugin.show.fm.rules",
+        "sec.accessibility-auditor",
+        "sec.administer.read",
+        "sec.api.link",
+        "sec.best-bet",
+        "sec.blending",
+        "sec.collection-start-urls",
+        "sec.content-auditor",
+        "sec.continuous.rest",
+        "sec.curator",
+        "sec.custom-gather",
+        "sec.data.reporter",
+        "sec.delete.collection.disable-hook",
+        "sec.faceted-navigation",
+        "sec.file.manager",
+        "sec.file.manager.edit",
+        "sec.halt.manual",
+        "sec.hook-script",
+        "sec.instant.update",
+        "sec.knowledge-graph-labels",
+        "sec.knowledge-graph-relationships",
+        "sec.knowledge-graph-templates",
+        "sec.knowledge-graph-update",
+        "sec.license.view-usage",
+        "sec.meta-name",
+        "sec.metadata-mapping",
+        "sec.predictive-segmentation",
+        "sec.qie",
+        "sec.queue.delete-other-users-tasks",
+        "sec.queue.priority",
+        "sec.reporter",
+        "sec.reporter.email",
+        "sec.reporting-exclusion",
+        "sec.sched.cron",
+        "sec.sched.manual",
+        "sec.seo-auditor",
+        "sec.service.mediator",
+        "sec.site-profile",
+        "sec.spelling",
+        "sec.synonym",
+        "sec.tuning",
+        "sec.tuning.run",
+        "sec.url-kill-list",
+        "sec.view.logs",
+        "sec.workflow-config",
+        "sec.xml-index"
+      ]
+    },
+    "permittedCollectionCreationTypes": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canEditRoles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canGrantRoles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "selfDescription": "Test engineer",
+    "email": null,
+    "fullName": null,
+    "info": null,
+    "organisation": null,
+    "canEditUsers": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "licenses": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "profiles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "errorMessage": null,
+  "data": {
+    "id": "govscot~content",
+    "accessibilityAuditorDomains": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "accessibilityAuditorScope": "none",
+    "canCreateRolesWithSuffix": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canCreateUsersWithSuffix": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canEditKeysInConfigEnvironments": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canEditConfigKeys": {
+      "unrestricted": false,
+      "specificallyAllowedValues": {}
+    },
+    "canReadConfigKeys": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "collections": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "inRoles": [
+      "govscot~primary"
+    ],
+    "permissions": {
+      "unrestricted": false,
+      "specificallyAllowedValues": [
+        "sec.best-bet",
+        "sec.blending",
+        "sec.content-auditor",
+        "sec.data.reporter",
+        "sec.predictive-segmentation",
+        "sec.reporter",
+        "sec.reporting-exclusion",
+        "sec.seo-auditor",
+        "sec.synonym",
+        "sec.tuning",
+        "sec.tuning.run",
+        "sec.view.logs"
+      ]
+    },
+    "permittedCollectionCreationTypes": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canEditRoles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canGrantRoles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "selfDescription": "Digital Publishing content designers",
+    "email": null,
+    "fullName": null,
+    "info": null,
+    "organisation": null,
+    "canEditUsers": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "licenses": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "profiles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    }
+  }
+}
