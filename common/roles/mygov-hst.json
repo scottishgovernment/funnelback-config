@@ -1,7 +1,7 @@
 {
   "errorMessage": null,
   "data": {
-    "id": "govscot~bloomreach",
+    "id": "govscot~mygov-hst",
     "accessibilityAuditorDomains": {
       "unrestricted": false,
       "specificallyAllowedValues": []
@@ -48,7 +48,7 @@
       "unrestricted": false,
       "specificallyAllowedValues": []
     },
-    "selfDescription": "Bloomreach service account role",
+    "selfDescription": "Bloomreach HST service account role",
     "email": null,
     "fullName": null,
     "info": null,
