@@ -12,7 +12,7 @@
       "specificallyAllowedValues": []
     },
     "canCreateUsersWithSuffix": {
-      "unrestricted": false,
+      "unrestricted": true,
       "specificallyAllowedValues": []
     },
     "canEditKeysInConfigEnvironments": {
