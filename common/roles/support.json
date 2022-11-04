@@ -56,7 +56,17 @@
     },
     "canGrantRoles": {
       "unrestricted": false,
-      "specificallyAllowedValues": []
+      "specificallyAllowedValues": [
+        "govscot~content",
+        "govscot~developer",
+        "govscot~infrastructure",
+        "govscot~mygov",
+        "govscot~performance",
+        "govscot~primary",
+        "govscot~resources",
+        "govscot~support",
+        "govscot~tester"
+      ]
     },
     "selfDescription": "Support desk",
     "email": null,
