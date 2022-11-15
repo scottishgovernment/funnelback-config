@@ -35,6 +35,7 @@
     "permissions": {
       "unrestricted": false,
       "specificallyAllowedValues": [
+        "sec.continuous.rest",
         "sec.curator"
       ]
     },
