@@ -1,0 +1,69 @@
+{
+  "errorMessage": null,
+  "data": {
+    "id": "govscot~gov",
+    "accessibilityAuditorDomains": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "accessibilityAuditorScope": "none",
+    "canCreateRolesWithSuffix": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canCreateUsersWithSuffix": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canEditKeysInConfigEnvironments": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canEditConfigKeys": {
+      "unrestricted": false,
+      "specificallyAllowedValues": {}
+    },
+    "canReadConfigKeys": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "collections": {
+      "unrestricted": true,
+      "specificallyAllowedValues": []
+    },
+    "inRoles": [],
+    "permissions": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "permittedCollectionCreationTypes": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canEditRoles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "canGrantRoles": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "selfDescription": "Provides access to search package and data sources used by www.gov.scot",
+    "email": null,
+    "fullName": null,
+    "info": null,
+    "organisation": null,
+    "canEditUsers": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "licenses": {
+      "unrestricted": false,
+      "specificallyAllowedValues": []
+    },
+    "profiles": {
+      "unrestricted": true,
+      "specificallyAllowedValues": []
+    }
+  }
+}
