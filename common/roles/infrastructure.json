@@ -44,7 +44,7 @@
       "specificallyAllowedValues": []
     },
     "canEditRoles": {
-      "unrestricted": false,
+      "unrestricted": true,
       "specificallyAllowedValues": []
     },
     "canGrantRoles": {
