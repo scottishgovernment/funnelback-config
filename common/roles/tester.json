@@ -16,7 +16,7 @@
       "specificallyAllowedValues": []
     },
     "canEditKeysInConfigEnvironments": {
-      "unrestricted": false,
+      "unrestricted": true,
       "specificallyAllowedValues": []
     },
     "canEditConfigKeys": {
@@ -1001,7 +1001,7 @@
       }
     },
     "canReadConfigKeys": {
-      "unrestricted": false,
+      "unrestricted": true,
       "specificallyAllowedValues": []
     },
     "collections": {
