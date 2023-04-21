@@ -59,6 +59,7 @@
       "specificallyAllowedValues": [
         "govscot~content",
         "govscot~developer",
+        "govscot~gov",
         "govscot~infrastructure",
         "govscot~mygov",
         "govscot~performance",
