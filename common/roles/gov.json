@@ -30,11 +30,13 @@
     "collections": {
       "unrestricted": false,
       "specificallyAllowedValues": [
+        "govscot~ds-journal-push",
         "govscot~ds-news-push",
         "govscot~ds-policies-push",
         "govscot~ds-publications-other-push",
         "govscot~ds-publications-push",
-        "govscot~ds-web"
+        "govscot~ds-web",
+        "govscot~sp-govscot"
       ]
     },
     "inRoles": [],
