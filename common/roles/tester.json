@@ -474,6 +474,10 @@
           "anyValuePermitted": true,
           "numericalRangePermitted": null
         },
+        "exclude_patterns": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
         "filter.classes": {
           "anyValuePermitted": true,
           "numericalRangePermitted": null
