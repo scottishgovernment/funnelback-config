@@ -1001,6 +1001,10 @@
         "ui_cache_link": {
           "anyValuePermitted": true,
           "numericalRangePermitted": null
+        },
+        "vital_servers": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
         }
       }
     },
