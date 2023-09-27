@@ -1,7 +1,7 @@
 {
   "errorMessage": null,
   "data": {
-    "id": "govscot~support",
+    "id": "govscot~communications",
     "accessibilityAuditorDomains": {
       "unrestricted": false,
       "specificallyAllowedValues": []
@@ -12,7 +12,7 @@
       "specificallyAllowedValues": []
     },
     "canCreateUsersWithSuffix": {
-      "unrestricted": true,
+      "unrestricted": false,
       "specificallyAllowedValues": []
     },
     "canEditKeysInConfigEnvironments": {
@@ -37,12 +37,18 @@
     "permissions": {
       "unrestricted": false,
       "specificallyAllowedValues": [
-        "cp.change.passwd",
-        "sec.accounts.create-users",
-        "sec.accounts.delete-users",
-        "sec.instant.update",
-        "sec.license.view-usage",
-        "sec.sched.manual",
+        "sec.best-bet",
+        "sec.blending",
+        "sec.content-auditor",
+        "sec.curator",
+        "sec.data.reporter",
+        "sec.predictive-segmentation",
+        "sec.reporter",
+        "sec.reporting-exclusion",
+        "sec.seo-auditor",
+        "sec.synonym",
+        "sec.tuning",
+        "sec.tuning.run",
         "sec.view.logs"
       ]
     },
@@ -56,29 +62,17 @@
     },
     "canGrantRoles": {
       "unrestricted": false,
-      "specificallyAllowedValues": [
-        "govscot~communications",
-        "govscot~content",
-        "govscot~developer",
-        "govscot~gov",
-        "govscot~infrastructure",
-        "govscot~mygov",
-        "govscot~performance",
-        "govscot~primary",
-        "govscot~resources",
-        "govscot~support",
-        "govscot~tester"
-      ]
+      "specificallyAllowedValues": []
     },
-    "selfDescription": "Support desk",
+    "selfDescription": "Digital Communications",
     "email": null,
     "fullName": null,
     "info": null,
-    "organisation": null,
     "canEditUsers": {
-      "unrestricted": true,
+      "unrestricted": false,
       "specificallyAllowedValues": []
     },
+    "organisation": null,
     "licenses": {
       "unrestricted": false,
       "specificallyAllowedValues": []

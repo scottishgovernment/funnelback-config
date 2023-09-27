@@ -46,26 +46,42 @@
     "canEditRoles": {
       "unrestricted": false,
       "specificallyAllowedValues": [
-	"govscot~content",
-	"govscot~developer",
-	"govscot~gov-cms",
-	"govscot~gov-hst",
-	"govscot~gov",
-	"govscot~infrastructure",
-	"govscot~mygov-cms",
-	"govscot~mygov-hst",
-	"govscot~mygov",
-	"govscot~performance",
-	"govscot~primary",
-	"govscot~resources",
-	"govscot~support",
-	"govscot~tester"
+        "govscot~communications",
+        "govscot~content",
+        "govscot~developer",
+        "govscot~gov-cms",
+        "govscot~gov-hst",
+        "govscot~gov",
+        "govscot~infrastructure",
+        "govscot~mygov-cms",
+        "govscot~mygov-hst",
+        "govscot~mygov",
+        "govscot~performance",
+        "govscot~primary",
+        "govscot~resources",
+        "govscot~support",
+        "govscot~tester"
       ]
     },
     "canGrantRoles": {
       "unrestricted": false,
       "specificallyAllowedValues": [
-        "_default_roles_~default-administrator"
+        "_default_roles_~default-administrator",
+        "govscot~communications",
+        "govscot~content",
+        "govscot~developer",
+        "govscot~gov-cms",
+        "govscot~gov-hst",
+        "govscot~gov",
+        "govscot~infrastructure",
+        "govscot~mygov-cms",
+        "govscot~mygov-hst",
+        "govscot~mygov",
+        "govscot~performance",
+        "govscot~primary",
+        "govscot~resources",
+        "govscot~support",
+        "govscot~tester"
       ]
     },
     "selfDescription": "Infrastructure engineers",
