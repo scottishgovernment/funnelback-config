@@ -498,6 +498,10 @@
           "anyValuePermitted": true,
           "numericalRangePermitted": null
         },
+        "filter.noindex.*": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
         "filter.text-cleanup.ranges-to-replace": {
           "anyValuePermitted": true,
           "numericalRangePermitted": null
