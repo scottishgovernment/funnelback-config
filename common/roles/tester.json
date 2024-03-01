@@ -1056,6 +1056,7 @@
         "sec.meta-name",
         "sec.metadata-mapping",
         "sec.predictive-segmentation",
+        "sec.profile.manage",
         "sec.qie",
         "sec.queue.delete-other-users-tasks",
         "sec.queue.priority",
@@ -1079,7 +1080,9 @@
     },
     "permittedCollectionCreationTypes": {
       "unrestricted": false,
-      "specificallyAllowedValues": []
+      "specificallyAllowedValues": [
+        "meta"
+      ]
     },
     "canEditRoles": {
       "unrestricted": false,
