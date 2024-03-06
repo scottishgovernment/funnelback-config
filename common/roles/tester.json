@@ -758,6 +758,10 @@
           "anyValuePermitted": true,
           "numericalRangePermitted": null
         },
+        "service.title": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
         "spelling.suggestion_lexicon_weight": {
           "anyValuePermitted": true,
           "numericalRangePermitted": null
