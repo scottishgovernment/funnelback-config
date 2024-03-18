@@ -32,8 +32,10 @@
       "specificallyAllowedValues": [
         "govscot~ds-design-system-web",
         "govscot~ds-mygov-web",
+        "govscot~ds-servicemanual",
         "govscot~sp-design-system",
-        "govscot~sp-mygov"
+        "govscot~sp-mygov",
+        "govscot~sp-servicemanual"
       ]
     },
     "inRoles": [],
