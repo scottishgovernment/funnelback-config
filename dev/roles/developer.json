@@ -16,10 +16,8 @@
       "specificallyAllowedValues": []
     },
     "canEditKeysInConfigEnvironments": {
-      "unrestricted": false,
-      "specificallyAllowedValues": [
-        "dev"
-      ]
+      "unrestricted": true,
+      "specificallyAllowedValues": []
     },
     "canEditConfigKeys": {
       "unrestricted": false,
