@@ -986,6 +986,10 @@
           "anyValuePermitted": true,
           "numericalRangePermitted": null
         },
+        "ui.modern.max_facet_extra_searches": {
+          "anyValuePermitted": true,
+          "numericalRangePermitted": null
+        },
         "ui.modern.metadata-alias.*": {
           "anyValuePermitted": true,
           "numericalRangePermitted": null
