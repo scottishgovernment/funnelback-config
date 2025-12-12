@@ -12,7 +12,7 @@
       "specificallyAllowedValues": []
     },
     "canCreateUsersWithSuffix": {
-      "unrestricted": true,
+      "unrestricted": false,
       "specificallyAllowedValues": []
     },
     "canEditKeysInConfigEnvironments": {
@@ -25,21 +25,19 @@
     },
     "canReadConfigKeys": {
       "unrestricted": false,
-      "specificallyAllowedValues": []
+      "specificallyAllowedValues": [
+        "service.title",
+        "service_name"
+      ]
     },
     "collections": {
       "unrestricted": false,
       "specificallyAllowedValues": []
     },
-    "inRoles": [
-      "govscot~primary"
-    ],
+    "inRoles": ["govscot~primary"],
     "permissions": {
       "unrestricted": false,
       "specificallyAllowedValues": [
-        "cp.change.passwd",
-        "sec.accounts.create-users",
-        "sec.accounts.delete-users",
         "sec.instant.update",
         "sec.license.view-usage",
         "sec.sched.manual",
@@ -65,7 +63,6 @@
         "govscot~mygov",
         "govscot~performance",
         "govscot~primary",
-        "govscot~resources",
         "govscot~support",
         "govscot~tester"
       ]
@@ -76,7 +73,7 @@
     "info": null,
     "organisation": null,
     "canEditUsers": {
-      "unrestricted": true,
+      "unrestricted": false,
       "specificallyAllowedValues": []
     },
     "licenses": {

@@ -1,7 +1,7 @@
 {
   "errorMessage": null,
   "data": {
-    "id": "govscot~performance",
+    "id": "govscot~socialsecurity",
     "accessibilityAuditorDomains": {
       "unrestricted": false,
       "specificallyAllowedValues": []
@@ -32,28 +32,15 @@
     },
     "collections": {
       "unrestricted": false,
-      "specificallyAllowedValues": []
+      "specificallyAllowedValues": [
+        "govscot~ds-socialsecurity",
+        "govscot~sp-socialsecurity"
+      ]
     },
-    "inRoles": ["govscot~primary"],
+    "inRoles": [],
     "permissions": {
       "unrestricted": false,
-      "specificallyAllowedValues": [
-        "sec.accessibility-auditor",
-        "sec.best-bet",
-        "sec.blending",
-        "sec.content-auditor",
-        "sec.curator",
-        "sec.data.reporter",
-        "sec.license.view-usage",
-        "sec.predictive-segmentation",
-        "sec.reporter",
-        "sec.reporting-exclusion",
-        "sec.seo-auditor",
-        "sec.synonym",
-        "sec.tuning",
-        "sec.tuning.run",
-        "sec.view.logs"
-      ]
+      "specificallyAllowedValues": []
     },
     "permittedCollectionCreationTypes": {
       "unrestricted": false,
@@ -67,7 +54,7 @@
       "unrestricted": false,
       "specificallyAllowedValues": []
     },
-    "selfDescription": "Performance team",
+    "selfDescription": "Provides access to search package and data sources used by socialsecurity.gov.scot",
     "email": null,
     "fullName": null,
     "info": null,
@@ -81,7 +68,7 @@
       "specificallyAllowedValues": []
     },
     "profiles": {
-      "unrestricted": false,
+      "unrestricted": true,
       "specificallyAllowedValues": []
     }
   }

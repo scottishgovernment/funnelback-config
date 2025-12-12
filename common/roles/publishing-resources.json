@@ -1,7 +1,7 @@
 {
   "errorMessage": null,
   "data": {
-    "id": "govscot~performance",
+    "id": "govscot~publishing-resources",
     "accessibilityAuditorDomains": {
       "unrestricted": false,
       "specificallyAllowedValues": []
@@ -25,35 +25,20 @@
     },
     "canReadConfigKeys": {
       "unrestricted": false,
-      "specificallyAllowedValues": [
-        "service.title",
-        "service_name"
-      ]
+      "specificallyAllowedValues": []
     },
     "collections": {
       "unrestricted": false,
       "specificallyAllowedValues": []
     },
-    "inRoles": ["govscot~primary"],
+    "inRoles": [
+      "govscot~gov",
+      "govscot~mygov",
+      "govscot~socialsecurity"
+    ],
     "permissions": {
       "unrestricted": false,
-      "specificallyAllowedValues": [
-        "sec.accessibility-auditor",
-        "sec.best-bet",
-        "sec.blending",
-        "sec.content-auditor",
-        "sec.curator",
-        "sec.data.reporter",
-        "sec.license.view-usage",
-        "sec.predictive-segmentation",
-        "sec.reporter",
-        "sec.reporting-exclusion",
-        "sec.seo-auditor",
-        "sec.synonym",
-        "sec.tuning",
-        "sec.tuning.run",
-        "sec.view.logs"
-      ]
+      "specificallyAllowedValues": []
     },
     "permittedCollectionCreationTypes": {
       "unrestricted": false,
@@ -67,7 +52,7 @@
       "unrestricted": false,
       "specificallyAllowedValues": []
     },
-    "selfDescription": "Performance team",
+    "selfDescription": "Provides access to all search packages and data sources to Digital Publishing team",
     "email": null,
     "fullName": null,
     "info": null,
@@ -81,7 +66,7 @@
       "specificallyAllowedValues": []
     },
     "profiles": {
-      "unrestricted": false,
+      "unrestricted": true,
       "specificallyAllowedValues": []
     }
   }

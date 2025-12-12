@@ -25,7 +25,10 @@
     },
     "canReadConfigKeys": {
       "unrestricted": false,
-      "specificallyAllowedValues": []
+      "specificallyAllowedValues": [
+        "service.title",
+        "service_name"
+      ]
     },
     "collections": {
       "unrestricted": false,
