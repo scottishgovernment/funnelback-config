@@ -31,11 +31,9 @@
       "unrestricted": false,
       "specificallyAllowedValues": [
         "govscot~ds-designsystem",
-        "govscot~ds-design-system-web",
         "govscot~ds-mygov-web",
         "govscot~ds-servicemanual",
         "govscot~sp-designsystem",
-        "govscot~sp-design-system",
         "govscot~sp-mygov",
         "govscot~sp-servicemanual"
       ]
