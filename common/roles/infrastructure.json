@@ -58,6 +58,7 @@
         "govscot~publishing-resources",
         "govscot~resources",
         "govscot~socialsecurity",
+        "govscot~socialwork",
         "govscot~support",
         "govscot~tester"
       ]
@@ -79,6 +80,7 @@
         "govscot~primary",
         "govscot~publishing-resources",
         "govscot~socialsecurity",
+        "govscot~socialwork",
         "govscot~support",
         "govscot~tester"
       ]
