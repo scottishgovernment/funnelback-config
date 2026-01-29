@@ -32,9 +32,11 @@
       "specificallyAllowedValues": [
         "govscot~ds-designsystem",
         "govscot~ds-mygov-web",
+        "govscot~ds-ready",
         "govscot~ds-servicemanual",
         "govscot~sp-designsystem",
         "govscot~sp-mygov",
+        "govscot~sp-ready",
         "govscot~sp-servicemanual"
       ]
     },
