@@ -29,7 +29,14 @@
     },
     "collections": {
       "unrestricted": false,
-      "specificallyAllowedValues": []
+      "specificallyAllowedValues": [
+        "govscot~ds-disclosure",
+        "govscot~ds-socialsecurity",
+        "govscot~ds-socialwork",
+        "govscot~sp-disclosure",
+        "govscot~sp-socialsecurity",
+        "govscot~sp-socialwork"
+      ]
     },
     "inRoles": [
       "govscot~gov",
