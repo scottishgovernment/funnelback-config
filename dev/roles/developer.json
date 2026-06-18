@@ -915,6 +915,7 @@
         "sec.reporting-exclusion",
         "sec.sched.manual",
         "sec.seo-auditor",
+        "sec.server-alias",
         "sec.site-profile",
         "sec.spelling",
         "sec.synonym",
